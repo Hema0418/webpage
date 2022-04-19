@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS - Introduction</title>
+<style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      width: 600px;
+      background-color: #ffe8cb;
+      border: 5px solid #a3442e;
+    }
+
+    h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .first p {
+      margin-left: 20px;
+    }
+
+    .box {
+      padding: 20px;
+      background-color: #f1bbad;
+    }
+
+    button {
+      display: block;
+      color: #2e2e2e;
+      font-size: 18px;
+      margin: 20px auto;
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: 2px solid #a3442e;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="first">
+<h1>Hello, World!</h1>
+<p>The most famous line for a programmer.</p>
+</div>
+<div class="box">
+<h2>Learning CSS</h2>
+<p>Learning CSS will let you design beautiful webpages, moving objects, amazing animations and different shapes on
+your webpage.</p>
+</div>
+<button>Start Learn CSS With Tutorials Tonight!</button>
+</div>
+</body>
+</html>
